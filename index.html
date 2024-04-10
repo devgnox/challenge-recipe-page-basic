@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Recipe page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        height: 2rem;
+        margin: auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <main class="recipe">
+        <div class="recipe__header">
+          <div class="recipe__header-imageBox">
+            <img src="./assets/images/image-omelette.jpeg" alt="recipe" />
+          </div>
+          </p>
+          <div class="recipe__header-box">
+            <h1 class="heading-1">Simple Omelette Recipe</h1>
+            <p class="recipe__header-description">
+              An easy and quick dish, perfect for any meal. This classic omelette
+              combines beaten eggs cooked to perfection, optionally filled with
+              your choice of cheese, vegetables, or meats.</p>
+            <div class="recipe__info">
+              <p class="heading-3">Preparation time</p>
+              <ul class="recipe__info-list">
+                <li class="recipe__info-item">
+                  <span>Total:</span> Approximately 10 minutes
+                </li>
+                <li class="recipe__info-item">
+                  <span>Preparation:</span> 5 minutes
+                </li>
+                <li class="recipe__info-item">
+                  <span>Cooking: </span> 5 minutes
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <section id="ingridients" class="recipe__ingridients">
+          <h2 class="heading-2">Ingredients</h2>
+          <ul class="recipe__ingridients-list">
+            <li class="recipe__ingridients-items"><p>2-3 large eggs</p></li>
+            <li class="recipe__ingridients-items"><p>Salt, to taste</p></li>
+            <li class="recipe__ingridients-items"><p>Pepper, to taste</p></li>
+            <li class="recipe__ingridients-items">
+              <p>1 tablespoon of butter or oil</p>
+            </li>
+            <li class="recipe__ingridients-items">
+             <p>Optional fillings: cheese, diced vegetables, cooked meats, herbs</p> 
+            </li>
+          </ul>
+        </section>
+        <div class="separator">
+          <hr/>
+        </div>
+        <section id="instructions" class="recipe__instructions">
+          <h2 class="heading-2">Instructions</h2>
+          <ol class="recipe__instructions-list">
+            <li class="recipe__instructions-item">
+                <p> <span>Beat the eggs:</span> In a bowl, beat the eggs with a pinch
+                  of salt and pepper until they are well mixed. You can add a
+                  tablespoon of water or milk for a fluffier texture.</p>
+            </li>
+            <li class="recipe__instructions-item">
+              <p><span>Heat the pan:</span> Place a non-stick frying pan over medium
+                heat and add butter or oil.</p> 
+            </li>
+            <li class="recipe__instructions-item">
+              <p><span>Cook the omelette:</span> Once the butter is melted and
+                bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly
+                coat the surface.</p>
+            </li>
+            <li class="recipe__instructions-item">
+              <p><span>Add fillings (optional):</span> When the eggs begin to set at
+                the edges but are still slightly runny in the middle, sprinkle
+                your chosen fillings over one half of the omelette.</p>
+            </li>
+            <li class="recipe__instructions-item">
+              <p> <span>Fold and serve:</span> As the omelette continues to cook,
+                carefully lift one edge and fold it over the fillings. Let it cook
+                for another minute, then slide it onto a plate.</p>
+            </li>
+            <li class="recipe__instructions-item">
+              <p><span>Enjoy:</span> Serve hot, with additional salt and pepper if
+                needed.</p> 
+            </li>
+          </ol>
+        </section>
+        <div class="separator">
+          <hr/>
+        </div>
+        <section id="nutrition" class="recipe__nutrition">
+          <h2 class="heading-2">Nutrition</h2>
+          <p>
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
+          <table style="width: 100%" class="recipe__nutrition-table">
+            <tr>
+              <th class="recipe__nutrition-table-header">Calories</th>
+              <td class="recipe__nutrition-table-content">277kcal</td>
+            </tr>
+            <tr>
+              <th class="recipe__nutrition-table-header">Carbs</th>
+              <td class="recipe__nutrition-table-content">0g</td>
+            </tr>
+            <tr>
+              <th class="recipe__nutrition-table-header">Protein</th>
+              <td class="recipe__nutrition-table-content">20g</td>
+            </tr>
+            <tr>
+              <th class="recipe__nutrition-table-header">Fat</th>
+              <td class="recipe__nutrition-table-content">22g</td>
+            </tr>
+          </table>
+        </section>
+      </main>
+    </div>
+    
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        > Frontend Mentor</a>. Coded by <a href="https://github.com/devgnox" target="_blank"> Dev Nox</a>.
+    </div>
+
+  </body>
+</html>
